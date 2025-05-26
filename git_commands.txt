@@ -1,0 +1,23 @@
+git init
+ 2 git add .\testing.py
+   3 git status
+   4    git rm cache .\testing.py
+   5 git status
+   6    git rm --cache .\testing.py
+   7 git status
+   8 git add .\testing.py
+   9 git status
+  11 git commit -m ".\testing.py"
+  12  git config --global user.email "ak.shinde141@mail.com"
+  13 git config --global user.name "Akshay"
+  14 git commit -m ".\testing.py"
+  15 git status
+  16 git status
+  17 ls
+  18 git rm .\testing.py
+  19 ls
+  20 git status
+  21 git restore testing.py
+  22 git restore --staged testing.py
+  23 ls
+  24 git restore  testing.py
